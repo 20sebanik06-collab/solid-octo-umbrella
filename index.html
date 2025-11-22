@@ -2,38 +2,33 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой первый сайт</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Мой сайт с картинкой</title>
+    <style>
+        .external-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Добро пожаловать на мой сайт!</h1>
-        <nav>
-            <a href="#about">Обо мне</a>
-            <a href="#contacts">Контакты</a>
-        </nav>
+        <h1>Мой сайт с красивой картинкой</h1>
     </header>
-
+    
     <main>
-        <section id="about">
-            <h2>Обо мне</h2>
-            <p>Привет! Меня зовут Царь, и я начинающий веб-разработчик. Это мой первый сайт, созданный с нуля.</p>
-            <img src="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fdaily.afisha.ru%2Finfoporn%2F29770-i-dont-want-delikatnye-memy-hochu-s-dikim-ogurcom-i-toplesom-nad-chem-my-smeyalis-v-iyule%2F&ved=0CBUQjRxqFwoTCPjLur7ahZEDFQAAAAAdAAAAABAI&opi=89978449" alt="абоба
-                ">
-        </section>
-
-        <section id="contacts">
-            <h2>Мои контакты</h2>
-            <p>Email: example@mail.com</p>
-            <button id="myButton">Нажми на меня!</button>
+        <section>
+            <h2>Вот эта картинка:</h2>
+            <!-- Прямая ссылка на изображение -->
+            <img 
+                src="https://img02.rl0.ru/afisha/e750x-i/daily.afisha.ru/uploads/images/6/e5/6e5a713fb8d534791c6eed2e47be9640.jpg" 
+                alt="Яркое абстрактное изображение с градиентом"
+                class="external-image"
+                width="600"
+            >
+            <p>Это изображение загружается прямо с сервера Афиши</p>
         </section>
     </main>
-
-    <footer>
-        <p>&copy; 2024 Мой первый сайт</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
